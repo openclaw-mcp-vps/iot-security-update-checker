@@ -30,8 +30,9 @@ PLANNED FILES:
 - components/ScanProgress.tsx
 - components/ComplianceReport.tsx
 - components/PricingCard.tsx
+- prisma/schema.prisma
 
-DEPENDENCIES: next, react, tailwindcss, @tailwindcss/forms, prisma, @prisma/client, node-nmap, axios, jspdf, @lemonsqueezy/lemonsqueezy.js, zod, lucide-react, recharts
+DEPENDENCIES: next, react, tailwindcss, prisma, @prisma/client, node-nmap, axios, @lemonsqueezy/lemonsqueezy.js, jspdf, recharts, lucide-react, clsx, zod
 
 REQUIREMENTS:
 - Next.js 15 with App Router (app/ directory)
@@ -88,7 +89,7 @@ approval: never
 sandbox: danger-full-access
 reasoning effort: xhigh
 reasoning summaries: none
-session id: 019e85de-3094-7950-8501-1d6c14b6e1c6
+session id: 019e8b8b-69b1-7483-a946-d42304738a46
 --------
 user
 # Build Task: iot-security-update-checker
